@@ -10,17 +10,17 @@ class typ4
 	private :
 		int n ;
 };
-class typ3 : public typ4
+class typ2 :public typ4
 {
 	public :
-		typ3(int n):typ4(n){}
-	 	typ3():typ4(3){}
+ 		typ2(int n):typ4(n){}
+		typ2():typ4(2){}
 };
-class typ2 :public typ3
+class typ3 : public typ2
 {
 	public :
- 		typ2(int n):typ3(n){}
-		typ2():typ3(2){}
+		typ3(int n):typ2(n){}
+	 	typ3():typ2(3){}
 };
 class typ1 :public typ2
 {
