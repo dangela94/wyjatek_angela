@@ -1,0 +1,14 @@
+#pragma once 
+#include "typy.h"
+
+class ObiektMiotajacy
+{
+	public: 
+	ObiektMiotajacy () {}
+	typ2 * Rzuc () {
+		Mem(this);
+		throw new typ2() ;
+	}
+
+
+};

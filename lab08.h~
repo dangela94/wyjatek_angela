@@ -1,0 +1,19 @@
+#pragma once
+
+#include "typy.h"
+ #include "ObiektMiotajacy.h"
+#include "Przetworz.h"
+
+void Przetworz1 ( typ2 * wsk)
+{
+	std::cout<<"Przetworz1 - wyjatek typu 2 o adresie: <adres>"<<std::endl;
+	throw  new typ4 ();
+}
+
+void Przetworz1 ( typ1 * wsk)
+{
+	std::cout<<"Przetworz1 - wyjatek typu 1 o adresie typ1: <adres>"<<std::endl;
+	delete wsk;
+	throw  new typ4 ();
+}
+

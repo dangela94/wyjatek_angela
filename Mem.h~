@@ -1,0 +1,13 @@
+#pragma once
+ class ObiektMiotajacy ;
+
+class Mem 
+{
+	public :
+		Mem ( ObiektMiotajacy * ptr ) : wsk(ptr ) {}
+		~Mem(){delete wsk ;}
+	private :
+		ObiektMiotajacy * wsk ;
+
+
+};

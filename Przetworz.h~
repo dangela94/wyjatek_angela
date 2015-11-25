@@ -1,0 +1,13 @@
+#pragma once
+
+class Przetworz1
+{
+	public:
+		Przetworz1 ( const typ4 * wsk ) 	
+			{
+
+			}
+
+
+};
+
